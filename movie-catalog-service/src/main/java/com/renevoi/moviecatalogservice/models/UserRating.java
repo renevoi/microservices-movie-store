@@ -4,13 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class CatalogItem {
-
-    private String name;
-    private String desc;
-    private int rating;
-
+public class UserRating {
+    private List<Rating> userRating;
 }

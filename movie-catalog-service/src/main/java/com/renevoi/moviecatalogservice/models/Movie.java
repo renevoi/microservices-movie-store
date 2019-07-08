@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class CatalogItem {
-
+public class Movie {
+    private String movieId;
     private String name;
-    private String desc;
-    private int rating;
-
 }
